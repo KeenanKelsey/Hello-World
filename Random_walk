@@ -11,6 +11,6 @@ for i in range(n):
     return (x, y)
 
 for i in range(25):
-    walk = random_walk_2(10)
+    walk = random_walk(10)
     print(walk, "Distance from home = ",
           abs([0]) + abs([1]))
